@@ -104,7 +104,7 @@ function generatePassword() {
  {
   for (var i = 0; i < passLength; i++){
     text += allCharsArr[Math.floor(Math.random() * allCharsArr.length)];
-    console.log(text)
+   // console.log(text)
   }
     return text;
     
