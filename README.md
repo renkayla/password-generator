@@ -28,6 +28,11 @@ When a user wants to generate a randomize passwod, they go to this page.
 Then they see a button that says generate password.
 When they click the button that are prompt to type in how many characters (8-128) they would like to include, along with upper case, lower case, numbers, and special characters. Then the application runs the random math and provides a password in the text box above the generate button.
 
+![127 0 0 1_5500_index html (1)](https://user-images.githubusercontent.com/116777951/224874793-664119ab-acfd-4651-81b1-93e188d38b3c.png)
+![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/116777951/224874820-ca71cf3e-3e9f-4814-9e94-fc9b907b3e1c.png)
+![127 0 0 1_5500_index html (2)](https://user-images.githubusercontent.com/116777951/224874849-e7044f3a-b667-47dc-ba97-ce40fad2db95.png)
+
+
 ## Credits 
 
 W3 schools, codecademy, sololearn, and Sean New from tutoring session all helped me build the javascript portion of this code.
