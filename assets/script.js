@@ -13,7 +13,7 @@ var specialChar = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
-generateBtn.addEventListener("click", writePassword);
+
 
 
 
@@ -38,12 +38,21 @@ function generatePassword() {
 
   var passLength = prompt("how many characters would you like in your password? (choose between 8-128)");
     //if(COND){LOGIC}
-    console.log(passLength)
-    if(passLength < 8 || passLength > 128){
+   /* //console.log(passLength)*/
+   
+     if(passLength < 8 || passLength > 128){
       alert("PLEASE ENTER VALID NUM");
+      //generatePassword();
       return;
-        //generatePassword()
     };
+
+    /*
+      else {
+        (passLength > 7 === passLength < 127); 
+        //generatePassword();
+        return;
+      }*/
+    
 
     //true || false ==== true
 //true && false === false
@@ -51,6 +60,8 @@ function generatePassword() {
   //var isCool = confirm("Are you cool?")
   //if(COND){LOGIC}
     
+
+  
   var choiceUpp = "Would you like UPPER case letters in your password?";
     okUpp = confirm(choiceUpp);
 
@@ -63,34 +74,43 @@ function generatePassword() {
   var choiceSpecChar = "Would you like SPECIAL CHARACTERS in your password?";
     okSpecChar = confirm(choiceSpecChar);
 
-   allCharsArr = [];
-   return;
- 
-  }
 
+//this says that when the person chooses ok to UPPER CASE it considers all concatinated uppercase letters
   {
   if (okUpp == true) {
     allCharsArr = allCharsArr.concat(upperCase);
+    
   }
-
+//same for lower
   if (okLow == true) {
     allCharsArr = allCharsArr.concat(lowerCase);
+   
   }
-
+//same for numbers
   if (okNum == true) {
     allCharsArr = allCharsArr.concat(numbers);
+    
   } 
-
+//same for special characters
   if (okSpecChar == true) {
     allCharsArr = allCharsArr.concat(specialChar);
+    
   }
+
+  
 }
 
+//the loop for the password calculations for the variable we created earlier for text and allcharsarr, add random math and .length and returns text
  {
   for (var i = 0; i < passLength; i++){
     text += allCharsArr[Math.floor(Math.random() * allCharsArr.length)];
+    console.log(text)
+  }
     return text;
-
+    
+}
 }
 
- }
+
+//this creates an event listner for the click on generate password
+generateBtn.addEventListener("click", writePassword);
