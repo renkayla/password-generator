@@ -1,4 +1,4 @@
-# Password Gnerator
+# Password Generator
 
 
 ## Description
