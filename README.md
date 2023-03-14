@@ -1,6 +1,15 @@
-# password-generator
-a generator for passwords
+# Password Gnerator
 
+
+## Description
+
+A randomized password generator that prompts you to choose between upper case, lower case, numbers, and all special characters.
+
+## Changes Made
+
+## Installation
+
+https://renkayla.github.io/password-generator/
 
 
 ## User Story 
@@ -26,3 +35,18 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+
+## Usage
+
+When a user wants to generate a randomize passwod, they go to this page.
+Then they see a button that says generate password.
+When they click the button that are prompt to type in how many characters (8-128) they would like to include, along with upper case, lower case, numbers, and special characters. Then the application runs the random math and provides a password in the text box above the generate button.
+
+## Credits 
+
+W3 schools, codecademy, sololearn, and Sean New from tutoring session all helped me build the javascript portion of this code.
+
+
+## License 
+ Please refer to the license in the repo.
