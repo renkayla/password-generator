@@ -30,7 +30,6 @@ When they click the button that are prompt to type in how many characters (8-128
 
 
 ![127 0 0 1_5500_index html](https://user-images.githubusercontent.com/116777951/224874820-ca71cf3e-3e9f-4814-9e94-fc9b907b3e1c.png)
-![2023-03-13 (2)](https://user-images.githubusercontent.com/116777951/224875700-69e59957-5481-4b16-8bd7-3d1cb88ac426.png)
 ![2023-03-13 (1)](https://user-images.githubusercontent.com/116777951/224875401-430ff1a8-6ebd-4301-bb67-124f66efb056.png)
 ![127 0 0 1_5500_index html (2)](https://user-images.githubusercontent.com/116777951/224874849-e7044f3a-b667-47dc-ba97-ce40fad2db95.png)
 
